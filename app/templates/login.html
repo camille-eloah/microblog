@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<form action="autenticar" method="post">
+    User: <input type="text" name="user"> <br>
+    Password: <input type="password" name="password">
+    <button type="Submit">Sign up</button>
+</form>
+{% endblock %}

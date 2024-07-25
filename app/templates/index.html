@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+    {% block conteudo %}
+    <img class="pfp" src="{{url_for('static', filename='images/cockatielpfp.jpg')}}"> 
+    <h1>Mr. Psita {{nome}}</h1>
+    <p>uma grande {{dados.profissao}} e faz sucesso no {{dados.canal}}</p>
+
+    {% endblock %}
